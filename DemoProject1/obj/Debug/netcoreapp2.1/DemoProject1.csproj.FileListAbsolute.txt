@@ -1,0 +1,14 @@
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\bin\Debug\netcoreapp2.1\DemoProject1.deps.json
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\bin\Debug\netcoreapp2.1\DemoProject1.runtimeconfig.json
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\bin\Debug\netcoreapp2.1\DemoProject1.runtimeconfig.dev.json
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\bin\Debug\netcoreapp2.1\DemoProject1.dll
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.csprojAssemblyReference.cache
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.csproj.CoreCompileInputs.cache
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.RazorAssemblyInfo.cache
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.RazorAssemblyInfo.cs
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.AssemblyInfoInputs.cache
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.AssemblyInfo.cs
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.RazorTargetAssemblyInfo.cache
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\bin\Debug\netcoreapp2.1\DemoProject1.pdb
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.dll
+C:\Users\YASH\Desktop\Task\DemoProject1\DemoProject1\obj\Debug\netcoreapp2.1\DemoProject1.pdb
