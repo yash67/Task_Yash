@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using DemoProject1.Data;
 using DemoProject1.Data.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace DemoProject1.Controllers
@@ -19,6 +20,12 @@ namespace DemoProject1.Controllers
         public UserController(ApplicationDBContext appDb)
         {
             _appDb = appDb;
+        }
+        [HttpGet,Route("GetAll")]
+        public async Task<ActionResult<IEnumerable<User>>> getAllUsers()
+        {
+            var users = await _appDb.TestUsers.ToListAsync();
+            return Ok(users);
         }
         [HttpGet]
         public async Task<ActionResult<string>> Get()
@@ -51,6 +58,16 @@ namespace DemoProject1.Controllers
         {
             var user = _appDb.TestUsers.FirstOrDefault(x => x.id == id);
             return user;
+        }
+
+        [HttpPut, Route("Update")]
+        public void Update([FromBody] User obj)
+        {
+            if(obj != null)
+            {
+                _appDb.Update(obj);
+                _appDb.SaveChanges();
+            }
         }
     }
 }
